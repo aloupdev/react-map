@@ -1,0 +1,28 @@
+.map-toc {
+  padding: 0;
+  background-color: white;
+  opacity: 1;
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  top: 54px;
+  left: 0px;
+  z-index: 100;
+  overflow: scroll;
+
+  .header {
+    color: $toc-blue;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+
+  .group {
+    background-color: #fafafa;
+  }
+
+  .tabs {
+
+
+  }
+}

@@ -1,0 +1,27 @@
+.olmap {
+  height: 100% -54px;
+  left: 0px;
+  position: fixed;
+  top: 54px;
+  width: 100%;
+  z-index: -100;
+}
+
+.ol-zoom {
+   top: 0.5em;
+   right: 0.5em;
+   left: auto;
+   //move the tooltips to the left of the now right aligned buttons
+   .ol-has-tooltip:hover [role=tooltip] {
+       left: -5.5em;
+       border-radius: 4px 0 0 4px;
+    }
+   .ol-zoom-out.ol-has-tooltip:hover [role=tooltip]{
+       left: -6.2em;
+    }
+ }
+//make sure the rotate controls included by default with an opacity of 0 don't
+//block clicks intended for the '+' button
+.ol-rotate {
+  visibility: hidden;
+}

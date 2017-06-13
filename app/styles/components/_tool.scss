@@ -1,0 +1,11 @@
+.tool {
+  color: #1779ba;
+  cursor: pointer;
+  font-size: 25px;
+  margin: 0.5rem;
+  padding: 0.2rem;
+
+  &:hover {
+    background: #f0f0f0;
+  }
+}

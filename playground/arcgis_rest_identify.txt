@@ -1,0 +1,13 @@
+http://eservices.dls.moi.gov.cy/arcgis/rest/services/National/CadastralMap_GR/MapServer/identify?
+f=json
+&tolerance=0
+&returnGeometry=true
+&imageDisplay=1364%2C169%2C96
+&geometry=%7B%22x%22%3A3609664.1943285665%2C%22y%22%3A4131744.701417858%7D
+&geometryType=esriGeometryPoint
+&sr=3857
+&mapExtent=3609233.0417158958%2C4131630.643039714%2C3610092.9582841042%2C4131859.356960286
+&layers=all%3A0
+&_=1497297185879
+
+10441517
